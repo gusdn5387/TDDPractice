@@ -70,5 +70,6 @@ class TDDPracticeTests: XCTestCase {
     // convert 함수 테스트
     func testConverForOne() {
         let result = viewController?.convert(1)
+        XCTAssertEqual(result, "I", "I가 한 번 호출 되어야 함")
     }
 }
