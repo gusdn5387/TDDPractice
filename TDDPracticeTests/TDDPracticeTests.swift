@@ -62,7 +62,7 @@ class TDDPracticeTests: XCTestCase {
     
     // evenCheck 함수 테스트
     func testEvenCheck() {
-        let evenCheck: Int = viewController?.evenCheck(5) // return 값이 없어서 오류
-        
+        let evenCheck: Bool = viewController?.evenCheck(5) ?? false
+        XCTAssertTrue(evenCheck) // false를 리턴해주기 때문에 실패
     }
 }
