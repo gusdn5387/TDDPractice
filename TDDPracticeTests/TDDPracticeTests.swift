@@ -59,4 +59,10 @@ class TDDPracticeTests: XCTestCase {
 //        XCTAssertNotEqual(2, divide) // 같아서 오류
         XCTAssertEqual(2, divide)
     }
+    
+    // evenCheck 함수 테스트
+    func testEvenCheck() {
+        let evenCheck: Int = viewController?.evenCheck(5) // evenCheck 함수 없어서 오류
+        
+    }
 }
