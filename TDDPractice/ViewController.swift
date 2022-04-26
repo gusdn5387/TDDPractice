@@ -32,7 +32,7 @@ extension ViewController {
     }
     
     func convert(_ num: Int) -> String {
-        return "I"
+        return String(repeating: "I", count: num)
     }
 }
 
