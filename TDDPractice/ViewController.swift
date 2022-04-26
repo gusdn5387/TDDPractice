@@ -36,8 +36,10 @@ extension ViewController {
         
         if (num < 5) {
             result = String(repeating: "I", count: num)
-        } else {
+        } else if (num == 5) {
             result = "V"
+        } else {
+            result = "VI"
         }
         
         return result
