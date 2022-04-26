@@ -32,7 +32,15 @@ extension ViewController {
     }
     
     func convert(_ num: Int) -> String {
-        return String(repeating: "I", count: num)
+        var result: String
+        
+        if (num < 5) {
+            result = String(repeating: "I", count: num)
+        } else {
+            result = "V"
+        }
+        
+        return result
     }
 }
 
