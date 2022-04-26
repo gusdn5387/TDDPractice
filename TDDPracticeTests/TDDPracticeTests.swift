@@ -69,6 +69,6 @@ class TDDPracticeTests: XCTestCase {
     
     // convert 함수 테스트
     func testConverForOne() {
-        let result = viewController.convert(1)
+        let result = viewController?.convert(1)
     }
 }

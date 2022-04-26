@@ -30,5 +30,9 @@ extension ViewController {
     func evenCheck(_ num: Int) -> Bool {
         return num % 2 == 0
     }
+    
+    func convert(_ num: Int) -> String {
+        return ""
+    }
 }
 
