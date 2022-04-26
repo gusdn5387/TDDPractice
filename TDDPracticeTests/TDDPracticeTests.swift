@@ -9,9 +9,12 @@ import XCTest
 @testable import TDDPractice
 
 class TDDPracticeTests: XCTestCase {
-
+    
+    var viewController: ViewController?
+    
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
+        viewController = ViewController()
     }
 
     override func tearDownWithError() throws {
@@ -41,6 +44,11 @@ class TDDPracticeTests: XCTestCase {
         let result = input.sorted()
         
         XCTAssertEqual(result, expect)
+    }
+    
+    // setupLayout 함수 테스트
+    func testSetupLayout() {
+        viewController.setupLayout() // viewController에 setupLayout 함수를 만들기 전이라 컴파일 에러
     }
 
 }
