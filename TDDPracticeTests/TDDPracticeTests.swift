@@ -62,8 +62,8 @@ class TDDPracticeTests: XCTestCase {
     
     // evenCheck 함수 테스트
     func testEvenCheck() {
-        let num = 5
+        let num = 6
         let evenCheck: Bool = viewController?.evenCheck(num) ?? false
-        XCTAssertTrue(evenCheck) // 짝수가 아니기 때문에 false 리턴 되어 테스트 실패
+        XCTAssertTrue(evenCheck) // 짝수라서 테스트 성공
     }
 }
