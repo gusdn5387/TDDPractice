@@ -62,7 +62,7 @@ class TDDPracticeTests: XCTestCase {
     
     // evenCheck 함수 테스트
     func testEvenCheck() {
-        let evenCheck: Int = viewController?.evenCheck(5) // evenCheck 함수 없어서 오류
+        let evenCheck: Int = viewController?.evenCheck(5) // return 값이 없어서 오류
         
     }
 }
