@@ -32,5 +32,15 @@ class TDDPracticeTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+    
+    // Array Sort Test - input 배열이 정렬했을 때 expect 배열과 동일하면 테스트 성공
+    func testArraySorting() {
+        let input = [1, 20, 100, 9, 6]
+        let expect = [1, 6, 9, 20, 100]
+        
+        let result = input.sorted()
+        
+        XCTAssertEqual(result, expect)
+    }
 
 }
