@@ -18,7 +18,9 @@ class ViewController: UIViewController {
 
 }
 
-private extension ViewController {
-
+extension ViewController {
+    func setupLayout() {
+        
+    }
 }
 

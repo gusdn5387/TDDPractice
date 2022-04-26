@@ -48,7 +48,7 @@ class TDDPracticeTests: XCTestCase {
     
     // setupLayout 함수 테스트
     func testSetupLayout() {
-        viewController.setupLayout() // viewController에 setupLayout 함수를 만들기 전이라 컴파일 에러
+        viewController?.setupLayout() // setupLayout 함수 생기니 테스트 성공함
     }
 
 }
