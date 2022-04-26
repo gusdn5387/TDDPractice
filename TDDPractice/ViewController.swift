@@ -20,7 +20,11 @@ class ViewController: UIViewController {
 
 extension ViewController {
     func setupLayout() {
-        
+        view.backgroundColor = .yellow
+    }
+    
+    func divide(a: Int, b: Int) -> Int {
+        return a / b
     }
 }
 

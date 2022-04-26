@@ -48,7 +48,15 @@ class TDDPracticeTests: XCTestCase {
     
     // setupLayout 함수 테스트
     func testSetupLayout() {
-        viewController?.setupLayout() // setupLayout 함수 생기니 테스트 성공함
+        viewController?.setupLayout()
     }
 
+    // divide 함수 테스트
+    func testDivide_1() {
+//        let divide = viewController?.divide(a: 2, b: 0) // division by zero error
+        let divide = viewController?.divide(a: 4, b: 2)
+//        XCTAssertNil(divide) // 값이 2라서 nil이 아님. 테스트 실패
+//        XCTAssertNotEqual(2, divide) // 같아서 오류
+        XCTAssertEqual(2, divide)
+    }
 }
