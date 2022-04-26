@@ -66,4 +66,9 @@ class TDDPracticeTests: XCTestCase {
         let evenCheck: Bool = viewController?.evenCheck(num) ?? false
         XCTAssertTrue(evenCheck) // 짝수라서 테스트 성공
     }
+    
+    // convert 함수 테스트
+    func testConverForOne() {
+        let result = viewController.convert(1)
+    }
 }
