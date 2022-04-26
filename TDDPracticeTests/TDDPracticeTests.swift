@@ -82,4 +82,9 @@ class TDDPracticeTests: XCTestCase {
         let result = viewController?.convert(5)
         XCTAssertEqual(result, "V", "V가 한 번 호출 되어야 함")
     }
+    
+    func testConvertForSix() {
+        let result = viewController?.convert(6)
+        XCTAssertEqual(result, "VI", "VI가 호출 되어야 함")
+    }
 }
