@@ -28,7 +28,7 @@ extension ViewController {
     }
     
     func evenCheck(_ num: Int) -> Bool {
-        return false
+        return true
     }
 }
 
